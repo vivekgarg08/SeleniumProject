@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-17T14:37:55 IST" name="RegressionSuite" finished-at="2024-03-17T14:38:02 IST" duration-ms="7282">
+    <groups>
+      <group name="Functionality">
+        <method signature="FlightTestCases.TC002_SelectFlightOption()[pri:0, instance:com.qa.testcases.FlightTestCases@1b6e1eff]" name="TC002_SelectFlightOption" class="com.qa.testcases.FlightTestCases"/>
+      </group> <!-- Functionality -->
+      <group name="UI">
+        <method signature="FlightTestCases.TC001_CheckifLogoisPresent()[pri:0, instance:com.qa.testcases.FlightTestCases@1b6e1eff]" name="TC001_CheckifLogoisPresent" class="com.qa.testcases.FlightTestCases"/>
+        <method signature="FlightTestCases.TC003_CheckifLogoisPresent()[pri:0, instance:com.qa.testcases.FlightTestCases@1b6e1eff]" name="TC003_CheckifLogoisPresent" class="com.qa.testcases.FlightTestCases"/>
+      </group> <!-- UI -->
+      <group name="Simple">
+        <method signature="FlightTestCases.TC001_CheckifLogoisPresent()[pri:0, instance:com.qa.testcases.FlightTestCases@1b6e1eff]" name="TC001_CheckifLogoisPresent" class="com.qa.testcases.FlightTestCases"/>
+        <method signature="FlightTestCases.TC003_CheckifLogoisPresent()[pri:0, instance:com.qa.testcases.FlightTestCases@1b6e1eff]" name="TC003_CheckifLogoisPresent" class="com.qa.testcases.FlightTestCases"/>
+      </group> <!-- Simple -->
+    </groups>
+    <test started-at="2024-03-17T14:37:55 IST" name="Testing" finished-at="2024-03-17T14:38:02 IST" duration-ms="7282">
+      <class name="com.qa.testcases.FlightTestCases">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.testcases.FlightTestCases@1b6e1eff]" started-at="2024-03-17T14:37:53 IST" name="setUp" finished-at="2024-03-17T14:37:55 IST" duration-ms="1905" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="removePopup()[pri:0, instance:com.qa.testcases.FlightTestCases@1b6e1eff]" started-at="2024-03-17T14:37:55 IST" name="removePopup" finished-at="2024-03-17T14:37:58 IST" duration-ms="3348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removePopup -->
+        <test-method signature="TC001_CheckifLogoisPresent()[pri:0, instance:com.qa.testcases.FlightTestCases@1b6e1eff]" started-at="2024-03-17T14:37:58 IST" name="TC001_CheckifLogoisPresent" finished-at="2024-03-17T14:37:58 IST" duration-ms="96" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC001_CheckifLogoisPresent -->
+        <test-method signature="TC002_SelectFlightOption()[pri:0, instance:com.qa.testcases.FlightTestCases@1b6e1eff]" started-at="2024-03-17T14:37:58 IST" name="TC002_SelectFlightOption" finished-at="2024-03-17T14:38:00 IST" duration-ms="1644" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC002_SelectFlightOption -->
+        <test-method signature="TC003_CheckifLogoisPresent()[pri:0, instance:com.qa.testcases.FlightTestCases@1b6e1eff]" started-at="2024-03-17T14:38:00 IST" name="TC003_CheckifLogoisPresent" finished-at="2024-03-17T14:38:00 IST" duration-ms="136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC003_CheckifLogoisPresent -->
+        <test-method signature="TC004_SelectFlightOption()[pri:0, instance:com.qa.testcases.FlightTestCases@1b6e1eff]" started-at="2024-03-17T14:38:00 IST" name="TC004_SelectFlightOption" finished-at="2024-03-17T14:38:02 IST" duration-ms="2023" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC004_SelectFlightOption -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testcases.FlightTestCases@1b6e1eff]" started-at="2024-03-17T14:38:02 IST" name="tearDown" finished-at="2024-03-17T14:38:03 IST" duration-ms="379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.testcases.FlightTestCases -->
+    </test> <!-- Testing -->
+  </suite> <!-- RegressionSuite -->
+</testng-results>
