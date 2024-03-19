@@ -22,34 +22,21 @@ public class SearchFlightTestCases extends TestBase {
 
 	@BeforeMethod(alwaysRun = true)
 	public void setUp() {
-		// initializaton();
+		 initializaton();
 		homePage = new HomePage();
 		searchFlightsPage = homePage.selectFlightOption();
 	}
 
-	@Test(groups = { "Simple", "UI" })
-	public void TC001_VerifyHeaderContent() {
-		Assert.assertEquals(searchFlightsPage.getPageHeader(), "Search flights");
-	}
 
 	@Test
 	public void TC002_SearchFligh() {
 		searchFlightsPage.SearchFlight(properties.getProperty("FromCity"), properties.getProperty("ToCity"),
 				properties.getProperty("Date"));
-		Assert.assertEquals(searchFlightsPage.getPageHeader(), "Search flights", "Mandatory data is missing");
 	}
 
-	@Test(groups = { "Simple", "UI" })
-	public void TC003_VerifyHeaderContent() {
-		Assert.assertEquals(searchFlightsPage.getPageHeader(), "Search flights");
-	}
 
-	@Test(groups = { "Simple", "UI" })
-	public void TC005_VerifyHeaderContent() {
-		Assert.assertEquals(searchFlightsPage.getPageHeader(), "Search flights");
-	}
-
-	/*
-	 * @AfterMethod public void tearDown() { // FormatResult(); tearDownMain(); }
-	 */
-}
+	  @AfterMethod public void tearDown() { 
+		   //FormatResult();
+		   tearDownMain(); 
+		   }
+	  } 

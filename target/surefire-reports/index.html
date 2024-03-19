@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods,   4 passed</span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -104,22 +104,12 @@
                     <div class="method-list-content passed suite-RegressionSuite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-RegressionSuite" title="com.qa.testcases.FlightTestCases" class="method navigator-link" hash-for-method="TC001_CheckifLogoisPresent">TC001_CheckifLogoisPresent</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-RegressionSuite" title="com.qa.testcases.LoginTestCases" class="method navigator-link" hash-for-method="TC001_CheckifLoginModalisPresent">TC001_CheckifLoginModalisPresent</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-RegressionSuite" title="com.qa.testcases.FlightTestCases" class="method navigator-link" hash-for-method="TC002_SelectFlightOption">TC002_SelectFlightOption</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-RegressionSuite" title="com.qa.testcases.FlightTestCases" class="method navigator-link" hash-for-method="TC003_CheckifLogoisPresent">TC003_CheckifLogoisPresent</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-RegressionSuite" title="com.qa.testcases.FlightTestCases" class="method navigator-link" hash-for-method="TC004_SelectFlightOption">TC004_SelectFlightOption</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-RegressionSuite" title="com.qa.testcases.LoginTestCases" class="method navigator-link" hash-for-method="TC002_LoginWithNumber">TC002_LoginWithNumber</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-RegressionSuite -->
@@ -137,35 +127,21 @@
           <div class="suite-RegressionSuite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.qa.testcases.FlightTestCases</span>
+              <span class="class-name">com.qa.testcases.LoginTestCases</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="TC001_CheckifLogoisPresent">
-                  </a> <!-- TC001_CheckifLogoisPresent -->
-                  <span class="method-name">TC001_CheckifLogoisPresent</span>
+                  <a name="TC001_CheckifLoginModalisPresent">
+                  </a> <!-- TC001_CheckifLoginModalisPresent -->
+                  <span class="method-name">TC001_CheckifLoginModalisPresent</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="TC002_SelectFlightOption">
-                  </a> <!-- TC002_SelectFlightOption -->
-                  <span class="method-name">TC002_SelectFlightOption</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="TC003_CheckifLogoisPresent">
-                  </a> <!-- TC003_CheckifLogoisPresent -->
-                  <span class="method-name">TC003_CheckifLogoisPresent</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="TC004_SelectFlightOption">
-                  </a> <!-- TC004_SelectFlightOption -->
-                  <span class="method-name">TC004_SelectFlightOption</span>
+                  <a name="TC002_LoginWithNumber">
+                  </a> <!-- TC002_LoginWithNumber -->
+                  <span class="method-name">TC002_LoginWithNumber</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -179,15 +155,15 @@
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite thread-count=&quot;3&quot; parallel=&quot;classes&quot; name=&quot;RegressionSuite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+&lt;suite thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;RegressionSuite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
   &lt;listeners&gt;
     &lt;listener class-name=&quot;com.qa.reports.ExtentReporterNG&quot;/&gt;
     &lt;listener class-name=&quot;com.qa.utilities.AnnotationTransformer&quot;/&gt;
     &lt;listener class-name=&quot;com.qa.utilities.TestListner&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test thread-count=&quot;3&quot; parallel=&quot;classes&quot; name=&quot;Testing&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;Testing&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.qa.testcases.FlightTestCases&quot;/&gt;
+      &lt;class name=&quot;com.qa.testcases.LoginTestCases&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Testing --&gt;
 &lt;/suite&gt; &lt;!-- RegressionSuite --&gt;
@@ -215,7 +191,7 @@
               <span class="test-group-name">Functionality</span>
               <br/>
               <div class="method-in-group">
-                <span class="method-in-group-name">TC002_SelectFlightOption</span>
+                <span class="method-in-group-name">TC002_LoginWithNumber</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
@@ -223,11 +199,7 @@
               <span class="test-group-name">Simple</span>
               <br/>
               <div class="method-in-group">
-                <span class="method-in-group-name">TC001_CheckifLogoisPresent</span>
-                <br/>
-              </div> <!-- method-in-group -->
-              <div class="method-in-group">
-                <span class="method-in-group-name">TC003_CheckifLogoisPresent</span>
+                <span class="method-in-group-name">TC001_CheckifLoginModalisPresent</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
@@ -235,11 +207,7 @@
               <span class="test-group-name">UI</span>
               <br/>
               <div class="method-in-group">
-                <span class="method-in-group-name">TC001_CheckifLogoisPresent</span>
-                <br/>
-              </div> <!-- method-in-group -->
-              <div class="method-in-group">
-                <span class="method-in-group-name">TC003_CheckifLogoisPresent</span>
+                <span class="method-in-group-name">TC001_CheckifLoginModalisPresent</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
@@ -259,28 +227,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'TC002_SelectFlightOption')
-data.setCell(0, 2, 'com.qa.testcases.FlightTestCases')
-data.setCell(0, 3, 1819);
+data.setCell(0, 1, 'TC002_LoginWithNumber')
+data.setCell(0, 2, 'com.qa.testcases.LoginTestCases')
+data.setCell(0, 3, 501);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'TC004_SelectFlightOption')
-data.setCell(1, 2, 'com.qa.testcases.FlightTestCases')
-data.setCell(1, 3, 1509);
-data.setCell(2, 0, 2)
-data.setCell(2, 1, 'TC003_CheckifLogoisPresent')
-data.setCell(2, 2, 'com.qa.testcases.FlightTestCases')
-data.setCell(2, 3, 92);
-data.setCell(3, 0, 3)
-data.setCell(3, 1, 'TC001_CheckifLogoisPresent')
-data.setCell(3, 2, 'com.qa.testcases.FlightTestCases')
-data.setCell(3, 3, 83);
+data.setCell(1, 1, 'TC001_CheckifLoginModalisPresent')
+data.setCell(1, 2, 'com.qa.testcases.LoginTestCases')
+data.setCell(1, 3, 115);
 window.suiteTableData['RegressionSuite']= { tableData: data, tableDiv: 'times-div-RegressionSuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 3 seconds</span>
+              <span class="suite-total-time">Total running time: 662 ms</span>
               <div id="times-div-RegressionSuite">
               </div> <!-- times-div-RegressionSuite -->
             </div> <!-- times-div -->
@@ -306,34 +266,22 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.qa.testcases.FlightTestCases</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.qa.testcases.LoginTestCases</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
                 <span class="method-name">setUp</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
-              <div class="configuration-test before">
-                <span class="method-name">removePopup</span>
-                <span class="method-start">5060 ms</span>
-              </div> <!-- configuration-test before -->
               <div class="test-method">
-                <span class="method-name">TC001_CheckifLogoisPresent</span>
-                <span class="method-start">5403 ms</span>
+                <span class="method-name">TC001_CheckifLoginModalisPresent</span>
+                <span class="method-start">5337 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">TC002_SelectFlightOption</span>
-                <span class="method-start">5489 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">TC003_CheckifLogoisPresent</span>
-                <span class="method-start">7313 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">TC004_SelectFlightOption</span>
-                <span class="method-start">7407 ms</span>
+                <span class="method-name">TC002_LoginWithNumber</span>
+                <span class="method-start">5462 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-suite after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">9081 ms</span>
+                <span class="method-start">6017 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

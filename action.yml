@@ -32,7 +32,7 @@ jobs:
 
       run: mvn clean test
 
-           mkdir marketspark && cp target/*.jar marketspark
+           mkdir automation && cp target/*.jar automation
     
     - name: artifact
 
@@ -40,7 +40,7 @@ jobs:
 
       with:
 
-          name: marketspark-automation-ci
+          name: automation-ci
 
-          path: marketspark
+          path: automation
 

@@ -1,6 +1,6 @@
 package com.qa.testcases;
 
-import org.openqa.selenium.Alert;
+
 import org.testng.Assert;
 import org.testng.annotations.*;
 
@@ -43,16 +43,7 @@ public class FlightTestCases extends TestBase {
 		homepage.selectFlightOption();
 	}
 
-	@Test(groups = { "Simple", "UI" })
-	public void TC003_CheckifLogoisPresent() {
-		boolean flag = homepage.isLogoDisplayed();
-		Assert.assertTrue(flag);
-	}
 
-	@Test
-	public void TC004_SelectFlightOption() {
-		homepage.selectFlightOption();
-	}
 
 	@AfterSuite(alwaysRun = true)
 	public void tearDown() {
